@@ -3,6 +3,7 @@ import pandas as pd
 from datetime import datetime
 
 def json_to_csv(json_file, output_file):
+    print(json_file)
     with open(json_file) as file:
         data = json.load(file)
         
