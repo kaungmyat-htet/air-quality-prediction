@@ -3,7 +3,7 @@ import altair as alt
 import pandas as pd
 from vega_datasets import data
 
-df = pd.read_csv('./test.csv')
+df = pd.read_csv('./src/test.csv')
 df['datetime'] = df['date'] + ' ' + df['time']
 print(df)
 
