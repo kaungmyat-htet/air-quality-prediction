@@ -1,4 +1,6 @@
 # Air Quality Prediction (Deep Learning Project)
 
-#### Useful Links
-* Dataset URL: https://archive.ics.uci.edu/dataset/360/air+quality
+#### Notebooks
+* CNN + LSTM training model = models/AQI_CNN_LSTM.ipynb
+* LSTM (BKK model) = models/bkk_aqi_prediction.ipynb
+* LSTM (CM model) = models/chaing_mai_aqi.ipynb
